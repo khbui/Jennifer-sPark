@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "398547869353",
+    "firebase_url": "https://jenniferspark-34a0b.firebaseio.com",
+    "project_id": "jenniferspark-34a0b",
+    "storage_bucket": "jenniferspark-34a0b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398547869353:android:110d50676843726b",
+        "android_client_info": {
+          "package_name": "com.example.jennifers.jenniferspark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398547869353-f87h9ome6uoilqq865bbkb1e7bkk6j44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLvq1IeQpnR5CyngwaaIUu0c3Wn2323SI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

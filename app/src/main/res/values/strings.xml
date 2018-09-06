@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">JennifersPark</string>
+    <string name="title_activity_map">Jennifer\'s Park</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_addParkingLot">Add Parking Lot</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_login">Login</string>
+    <string name="signout">Sign Out</string>
+    <string name="title_activity_navigation">Navigation</string>
+</resources>

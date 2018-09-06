@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.jennifers.jenniferspark.Navigation" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="41dp"
+            android:src="@drawable/ic_distance" />
+
+        <TextView
+            android:id="@+id/tvDistance"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 miles" />
+
+        <ImageView
+
+            android:id="@+id/imageView"
+            android:layout_width="40dp"
+            android:layout_height="44dp"
+            android:padding="7dp"
+            android:src="@drawable/ic_clock" />
+
+        <TextView
+            android:id="@+id/tvDuration"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0 hours" />
+    </LinearLayout>
+</RelativeLayout>
